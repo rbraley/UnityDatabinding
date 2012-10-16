@@ -22,4 +22,4 @@ A sample scene is included in this repo. It demonstrates usage of composed ViewM
 5. Switch to different views based on screen size, orientation or skin.
 
 ## Note 
-This system has not yet been tested on mobile devices. 
+This system has not yet been tested on mobile devices. It has not been used in a production game. It is the product of an afternoon or two of playing around with NGUI by a novice Unity3D developer (albeit an experience front-end developer). This code is primarily provided as an example of how a databinding system might be built with the hopes of getting feedback from the community on whether this is valuable enough to pursuse more fully and bring to full prodution-ready quality.

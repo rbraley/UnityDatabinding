@@ -19,7 +19,7 @@ A sample scene is included in this repo. It demonstrates usage of composed ViewM
 1. Autmatically load views from the resources folder.
 2. Play animations when composing in/out parts of the hierarchy.
 3. Dynamically construct game objects.
-4. Download asset bundles autmatcially and extract custom views.
+4. Download asset bundles automatically and extract custom views.
 5. Switch to different views based on screen size, orientation or skin.
 
 ## Note 

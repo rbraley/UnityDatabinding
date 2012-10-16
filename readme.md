@@ -13,5 +13,13 @@ This is a basic databinding framework for Unity3D. The general mechanism can be 
 ## Bonus Features
 This framework contains optional components derived from the Caliburn.Micro Xaml framework. Those components include a simple IoC container and an EventAggregator. The DataContextFromContainer requires the IoC container. But, if you don't use that behavior, the IoC is not needed at all by this framework. Furthermore, if you aren't using the IoC of the EventAggregator, you technically don't actually need a Bootstrapper either.
 
+## Sample Scene
+A sample scene is included in this repo. It demonstrates usage of composed ViewModels, IoC and the EventAggregator. It also demonstrates some NGUI bindings, container bindings and compositional binding used for basic screen navigation. The compositional binding simply activates/deactivates various parts of the scene hierarchy based on the active ViewModel. This could easily be extended to do things like:
+1. Autmatically load views from the resources folder.
+2. Play animations when composing in/out parts of the hierarchy.
+3. Dynamically construct game objects.
+4. Download asset bundles autmatcially and extract custom views.
+5. Switch to different views based on screen size, orientation or skin.
+
 ## Note 
 This system has not yet been tested on mobile devices. 

@@ -11,7 +11,7 @@ This is a basic databinding framework for Unity3D. The general mechanism can be 
 5. When building your ViewModels for use as DataContexts, you must declare your bindable properties as Observable<T>. There is a helper method for this on the ViewModel and ViewModelBehavior base classes. This is done to eliminate the need for reflection and simplify the databinding system.
 
 ## Bonus Features
-This framework contains optional components derived from the Caliburn.Micro Xaml framework. Those components include a simple IoC container and an EventAggregator. The DataContextFromContainer requires the IoC container. But, if you don't use that behavior, the IoC is not needed at all by this framework. Furthermore, if you aren't using the IoC of the EventAggregator, you technically don't actually need a Bootstrapper either.
+This framework contains optional components derived from the Caliburn.Micro Xaml framework. Those components include a simple IoC container and an EventAggregator. The DataContextFromContainer requires the IoC container. But, if you don't use that behavior, the IoC is not needed at all by this framework. Furthermore, if you aren't using the IoC or the EventAggregator, you technically don't actually need a Bootstrapper either.
 
 ## Sample Scene
 A sample scene is included in this repo. It demonstrates usage of composed ViewModels, IoC and the EventAggregator. It also demonstrates some NGUI bindings, container bindings and compositional binding used for basic screen navigation. The compositional binding simply activates/deactivates various parts of the scene hierarchy based on the active ViewModel. This could easily be extended to do things like:
